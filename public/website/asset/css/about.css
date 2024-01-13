@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*===================================================
+                 Common css End  
+======================================================*/
+
+/* ##### NAVBER */
+.navbar-text a {
+    color: #f0f8ff;
+}
+
+.navbar-text a:hover {
+    color: #ffffff;
+}
+
+/* ############### SOCIAL ICON START */
+.about_color {
+    padding-top: 20px;
+}
+
+.about_color ul li a {
+    background: rgb(255, 255, 255) !important;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    color: #000000 !important;
+
+}
+
+.about_color ul {
+    float: right;
+}
+
+.about_color ul li {
+    padding: 0 5px;
+}
+
+.social_icon_about {
+    float: right;
+}
+
+.social_icon_about ul li a {
+    color: #ffffff;
+    margin: 0 10px;
+    padding-top: 10px;
+}
+
+/* ############### SOCIAL ICON END */
+
+.about_menu ul li a {
+    color: #858585;
+}
+
+.about_menu ul li a:hover {
+    color: #fff;
+}
+
+.about_text_part h3 {
+    color: #4a4a4a;
+    padding-bottom: 14px;
+}
+
+.about_text_part p {
+    padding-bottom: 50px;
+    color: #393838;
+    font-style: italic;
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about_img {
+        text-align: center;
+    }
+    .about_text_part{
+        text-align: center;
+    }
+}
+
+@media (max-width: 430.992px) {
+    .about_img {
+        text-align: center;
+    }
+    .about_text_part{
+        text-align: center;
+    }
+}
+
+@media (max-width: 393.852px) {
+    .about_img {
+        text-align: center;
+    }
+    .about_text_part{
+        text-align: center;
+    }
+}

@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*===================================================
+                 Common css End  
+======================================================*/
+
+
+/* ############## SOSIAL ICON PART START ############## */
+
+
+.color_con ul li a{
+    background: rgb(0, 0, 0) !important;
+    width: 25px !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    border-radius: 50% !important;
+    text-align: center !important;
+    color: #ffff !important;
+}
+
+.color_con {
+    padding-top: 20px !important;
+}
+
+
+.color_con ul {
+    float: right !important;
+}
+
+.color_con ul li {
+    padding: 0 5px !important;
+}
+
+/* ############## SOSIAL ICON PART END ############## */
+
+
+
+/* ############## PRODUCT PART START ############## */
+
+#product-part{
+   margin-bottom: 30px;
+}
+.product-img a img {
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    margin: 57px;
+}
+
+.product-img a p {
+    margin: -49px 0px 0px 61px;
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+}
+.product-img ul {
+    justify-content: center;
+    margin: 0 -10px 0 0px;
+    color: #313131;
+}
+.product-img span{
+    justify-content: center;
+    margin: 0 -10px 0 0px;
+    color: #313131;
+}
+
+.product-but a{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #000;
+    color: #ffffff;
+}
+.product-but {
+    text-align: center;
+    padding: 3rem 0 0 116px;
+}
+
+/* ############## PRODUCT PART END ############## */
+
+/* ############## PESPONSIVE PART START ############## */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo-img a {
+        transform: translate(6rem, 1rem);
+    }
+
+    #navbar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+    }
+
+    #navbarText {
+        background-color: #ffffff;
+        padding: 28px 20px;
+    }
+
+    .logo-img a img {
+        width: 486px;
+        height: 126px;
+    }
+    #navbar ul li a {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        transition: all linear .2s;
+    }
+
+    .navbar-text {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        color: var(--bs-navbar-color);
+        padding-left: 135px;
+    }
+
+    #banner-part {
+        padding-bottom: 30px;
+        margin-left: 31px;
+    }
+    .W img {
+        width: 675px !important;
+        height: 488px;
+        accent-color: springgreen;
+    }
+
+    .social_icon ul {
+        position: absolute;
+        /* left: ; */
+        right: 0;
+        top: 19px;
+    }
+
+    /* ############### Footer  */
+    #footer-part {
+        padding: 100px 0;
+        background: #000000;
+    }
+
+    .footer-text p {
+        margin-top: -48px;
+    }
+    .footer-side-img {
+        position: absolute;
+        right: 310px;
+        top: 46px;
+    }
+
+    .product-img a p {
+        margin: -43px 0px 0px 18px;
+        font-size: 15px;
+        color: #000;
+        font-weight: 500;
+    }
+}
+
+
+
+
+
+@media (max-width: 393.852px) {
+    #footer-part {
+        padding: 107px 0 !important;
+        background: #000000;
+    }
+    .social_icon ul li a {
+        width: 20px !important;
+        font-size: 13px;
+        height: 20px !important;
+        line-height: 20px !important;
+    }
+}
